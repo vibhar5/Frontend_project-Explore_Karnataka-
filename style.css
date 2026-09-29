@@ -1,0 +1,188 @@
+:root{
+    --ink:#1f2a44;
+    --muted:#23417e;
+    --paper:#fbfbf98c;
+    --wash:#f3f4f6;
+    --acent:#6366f1;
+    --accent-dark:#4f46e5;
+    --highlight:#facc15;
+    --line:#e5ebeb;
+    --feild-border:#d1d5db;
+    --error:#ef4444;
+    --radius:8px;
+    --space:1rem;
+
+
+}
+*,
+*::before,
+*::after{
+    box-sizing:border-box;
+    }
+    body{
+        margin:0;
+        font-family:system-ui,-apple-system,Segoe UI,Roboto,Ubuntu,Cantarell,Noto Sans,sans-serif,Arial,Helvetica,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol,Noto Color Emoji;
+        font-size:1rem;
+        line-height:1.5;
+        color:var(--ink);
+        background-color:var(--paper);
+    }
+    h1,
+    h2,
+    h3, {font family:system-ui,-apple-system,Segoe UI,Roboto,Ubuntu,Cantarell,Noto Sans,sans-serif,Arial,Helvetica,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol,Noto Color Emoji;
+        line-height:1.25;
+    }
+    h1{
+        margin:0 0 0.5rem;
+        font-size:clamp(1.875rem,2.5vw + 1rem,3rem);
+
+    }
+
+    a{
+        color:var(--acent);
+           }
+    a:hover{
+        text-decoration-thickness:3px ;
+           }
+    :focus-visible{
+        outline:3px solid var(--acent);
+        outline-offset:2px;
+    }
+    img{
+        max-width:100%;
+        display:block;
+    }
+    .skip-link{
+        position:absolute;
+        top:0;
+        left:0;
+        background-color:var(--acent);
+        color:var(--paper);
+        padding:var(--space);
+        z-index:1000;
+    }
+    .skip-link:focus{
+        top:var(--space);
+        left:var(--space); 
+        transform:translateY(0);
+    }   
+    header{
+        background-color:var(--wash);
+        padding:3rem max(var(--space),5vw),calc(100%-60rem)/2   2rem;
+        border-bottom:4px solid var(--line);
+        text-align:center;
+    }
+    header>p{
+        max-width: 60inch;
+        margin-top:0;
+        color:var(--muted);
+    }
+    nav ul{
+        display:flex;
+        flex-wrap:wrap;
+        justify-content:center;
+        gap:0.5rem,1.25rem;
+        padding:0;
+        margin: 1.5em 0 0;
+        list-style:none;
+    }
+    nav a{
+        font-weight:500;
+                text-underline-offset:4px;
+        
+    }
+    #about{
+        max-width:60rem;
+        margin:0 auto;
+        padding:var(--space);
+    }   
+    #about>p{
+        margin-top:0;
+    }
+    #projects{
+        max-width:60rem;
+        margin:0 auto;
+        padding:var(--space);
+    }
+    article{
+        margin-bottom:var(--space);
+        padding:var(--space);
+        border:1px solid var(--line);
+
+    }
+    .status{
+        display:flex;
+        flex-wrap:wrap;
+        gap:var(--space);
+        margin-bottom:var(--space);
+        border:1px solid var(--line);
+        padding:var(--space);
+    }
+    table{
+        width:100%;
+        border-collapse:collapse;
+    }
+    caption{
+        text-align:left;
+        font-weight:500;
+        margin-bottom:var(--space);
+        padding:var(--space);
+    }
+    th,
+    td{
+        text-align:left;
+        padding:var(--space);
+        border:1px solid var(--line);
+    }
+    thread th{
+        background-color:var(--wash);
+    }
+    form{
+        max-width:60rem;
+        margin:0 auto;
+        padding:var(--space);
+    }
+    input,
+    select,
+    textarea{
+        width:100%;
+        padding:var(--space);
+        border:1px solid var(--feild-border);
+        border-radius:var(--radius);
+        font-family:inherit;
+        font-size:inherit;
+    }
+    input:user-invalid,
+  textarea:user-invalid,
+    select:user-invalid{
+        border-color:var(--error);
+    }
+    button{
+    padding:var(--space);
+    font: inherit;
+    font-weight:500;
+    color:var(--paper);
+    background-color:var(--acent);
+    border:none;
+    border-radius:var(--radius);
+    cursor:pointer;
+    transition:background-color 0.2s;
+       
+    }       
+    button:hover{
+        background-color:var(--accent-dark);
+    }
+    footer{
+        background-color:var(--wash);
+        padding:var(--space);
+        text-align:center;
+        font-size:0.875rem;
+        color:var(--muted);
+    }       
+    input[type="submit"]:hover {
+    background-color: orange;
+}
+    input {
+    width: 100%;
+}            
+

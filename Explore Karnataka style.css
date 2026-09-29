@@ -1,0 +1,157 @@
+
+/* General page */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: #fff8e7;
+    color: #333333;
+}
+
+
+/* Header */
+
+header {
+    background-color: #8f4e2d;
+    color: white;
+    text-align: center;
+    padding: 25px;
+}
+
+header h1 {
+    margin: 5px;
+    font-size: 38px;
+}
+
+header p {
+    margin-top: 12px;
+    font-size: 17px;
+}
+
+
+/* Navigation */
+
+nav {
+    background-color: #4a2c20;
+    text-align: center;
+    padding: 12px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 8px;
+    padding: 6px;
+}
+
+nav a:hover {
+    background-color: #d99b45;
+    color: black;
+    border-radius: 5px;
+}
+
+
+/* Main content */
+
+main {
+    width: 85%;
+    margin: 25px auto;
+}
+
+
+/* Sections */
+
+section {
+    background-color: white;
+    margin-bottom: 22px;
+    padding: 22px;
+    border-left: 5px solid #b5651d;
+    border-radius: 6px;
+}
+
+
+/* Headings */
+
+h2 {
+    color: #8f4e2d;
+    margin-top: 5px;
+    padding-bottom: 7px;
+    border-bottom: 1px solid #d99b45;
+}
+
+h3 {
+    color: #a0522d;
+}
+
+
+/* Images */
+
+img {
+    width: 230px;
+    height: 150px;
+    object-fit: cover;
+    margin: 8px;
+    border: 3px solid #ead2a7;
+    border-radius: 5px;
+}
+
+img:hover {
+    border-color: #b5651d;
+}
+
+
+/* Lists */
+
+li {
+    margin-bottom: 8px;
+}
+
+
+/* About Us Form */
+
+form {
+    width: 70%;
+    margin: 15px auto;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"] {
+    width: 100%;
+    padding: 9px;
+    border: 1px solid #b5651d;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type="submit"] {
+    background-color: #8f4e2d;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #d99b45;
+    color: black;
+}
+
+
+/* Footer */
+
+footer {
+    background-color: #4a2c20;
+    color: white;
+    text-align: center;
+    padding: 12px;
+    margin-top: 20px;
+}
+

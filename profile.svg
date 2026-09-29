@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 160" role="img" aria-labelledby="profile-title">
+  <title id="profile-title">Illustrated portrait of Meera Nair</title>
+  <rect width="160" height="160" rx="24" fill="#e6f2f1"/>
+  <circle cx="80" cy="62" r="30" fill="#1f2a44"/>
+  <path d="M28 150c6-32 28-48 52-48s46 16 52 48z" fill="#0f766e"/>
+</svg>
